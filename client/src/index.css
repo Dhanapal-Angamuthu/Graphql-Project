@@ -1,0 +1,98 @@
+body {
+  background-color: #f3f3f3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.custom-h1-style {
+  color: #444;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  padding: 1px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  color: #880e4f;
+}
+
+#main{
+  padding: 0px;
+  box-sizing: border-box;
+  width: 60%;
+  height: 100%;
+}
+#book-list{  
+  padding: 0;
+}
+#book-list li {
+  display: inline-block;
+  margin: 5px;
+  padding: 1px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  color: #880e4f;
+}
+form {
+  background: #fff;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+}
+form .field {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+form label {
+  text-align: right;
+  padding: 6px;
+}
+form input, form select {
+  margin: 4px 0 0 0;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+form button {
+  color: #fff;
+  font-size: 2em;
+  background: #Ad1;
+  border: 0;
+  padding: 0 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+
+}
+
+#book-details {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background: #ad1;
+  padding: 10px;
+  overflow: auto;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  color: #fff;
+}
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*/
